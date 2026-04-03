@@ -1,6 +1,6 @@
 # 🎓 AchadosCampus
 
-O **AchadosCampus** é um sistema web moderno e responsivo desenvolvido para facilitar a recuperação de objetos perdidos dentro de instituições de ensino. O diferencial do sistema é o conceito de **Match Inteligente**, que cruza dados de quem perdeu com quem encontrou em tempo real.
+O **AchadosCampus** é um sistema web desenvolvido para facilitar a recuperação de objetos perdidos dentro de instituições de ensino. O diferencial do sistema é o conceito de **Match Inteligente**, que cruza dados de quem perdeu com quem encontrou em tempo real.
 
 ## 🚀 Tecnologias Utilizadas
 - **React 18** com **Vite**
