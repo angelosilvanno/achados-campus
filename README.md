@@ -12,10 +12,6 @@ Perder um objeto no campus pode ser um grande transtorno. O objetivo deste proje
 *   **Mural Dinâmico:** Visualização clara de itens através de cards com fotos, categorias e locais.
 *   **Responsividade Total:** Interface adaptada para uso rápido via celular enquanto o usuário caminha pelo campus ou via desktop.
 
-### ⚙️ Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina o [Node.js](https://nodejs.org/en/) (recomenda-se a versão LTS). Além disso, é bom ter um editor de código como o [VS Code](https://code.visualstudio.com/).
-
 ### 🔨 Guia de instalação
 
 Siga os passos abaixo para rodar o projeto localmente em sua máquina:
