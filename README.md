@@ -1,73 +1,22 @@
-# React + TypeScript + Vite
+# 🎓 AchadosCampus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **AchadosCampus** é um sistema web moderno e responsivo desenvolvido para facilitar a recuperação de objetos perdidos dentro de instituições de ensino. O diferencial do sistema é o conceito de **Match Inteligente**, que cruza dados de quem perdeu com quem encontrou em tempo real.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+- **React 18** com **Vite**
+- **TypeScript** (Tipagem estrita)
+- **Tailwind CSS v4** (Design moderno e utilitário)
+- **React Router Dom** (Navegação dinâmica)
+- **Context API** (Gerenciamento de estado global do usuário)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Funcionalidades Principais
+- [x] Login e Registro Institucional
+- [x] Registro de Objetos Perdidos com descrição detalhada
+- [x] Registro de Objetos Achados com upload de fotos
+- [x] Mural de Itens centralizado para consulta
+- [x] Fluxo de navegação responsivo (Mobile/Desktop)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Como rodar o projeto
+1. Clone o repositório: `git clone https://github.com/angelosilvanno/achados-campus.git`
+2. Instale as dependências: `npm install`
+3. Inicie o servidor de desenvolvimento: `npm run dev`
