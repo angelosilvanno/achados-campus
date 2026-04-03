@@ -42,15 +42,11 @@ npm run dev
 
 ## 📦 Tecnologias usadas:
 
-As ferramentas escolhidas para este projeto visam performance e uma experiência de desenvolvimento moderna:
-
-*   **Vite**: Ferramenta de build ultra-rápida.
-*   **React 18**: Biblioteca para construção de interfaces dinâmicas.
-*   **TypeScript**: Adiciona tipagem estrita ao JavaScript, evitando erros comuns.
-*   **Tailwind CSS v4**: Framework utilitário para design moderno e responsivo.
-*   **React Router Dom**: Gerenciamento de rotas e navegação entre páginas.
-*   **Context API**: Gerenciamento de estado global para dados do usuário.
-
+*   ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+*   ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+*   ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react)
+*   ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  
 ## 👷 Autor
 
 *   **Angelo Silvano** - *Desenvolvedor Full Stack* - [angelosilvanno](https://github.com/angelosilvanno)
