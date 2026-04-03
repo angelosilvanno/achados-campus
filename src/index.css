@@ -1,0 +1,6 @@
+@import "tailwindcss"; /* Esta linha agora substitui @tailwind base, components, utilities */
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
